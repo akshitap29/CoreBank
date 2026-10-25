@@ -131,3 +131,7 @@ This project demonstrates practical experience with:
 ## Disclaimer
 
 CoreBank is an educational portfolio project. It is a banking simulation and is **not intended for real financial transactions or production banking use**.
+
+## Application Screenshot
+
+![CoreBank Dashboard](screenshots/dashboard.png)
