@@ -1,0 +1,197 @@
+
+#root {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #173f73;
+  font-size: 42px;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+button {
+  background-color: #173f73;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #245a98;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px;
+  margin-bottom: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.transaction-item p {
+  margin: 6px 0 0;
+  color: #666666;
+  font-size: 14px;
+}
+
+.transaction-credit {
+  color: #16803c;
+}
+
+.transaction-debit {
+  color: #d32f2f;
+}
+
+/* Main dashboard layout */
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+}
+
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Headings */
+h1 {
+  color: #173b70;
+}
+
+h2 {
+  color: #234a78;
+  margin-bottom: 14px;
+}
+
+/* Dashboard sections */
+#root > div > div {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 18px 0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  margin: 6px 8px 6px 0;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  margin: 6px 6px 6px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #2457a7;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #173b70;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  #root {
+    padding: 12px;
+  }
+
+  .transaction-item {
+    flex-wrap: wrap;
+  }
+
+  input {
+    max-width: 100%;
+  }
+}
+
+.balance-card {
+  background: linear-gradient(135deg, #173b70, #3478c8);
+  color: white;
+  padding: 24px;
+  margin: 20px 0;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(23, 59, 112, 0.2);
+}
+
+.balance-card p {
+  margin: 6px 0;
+  color: white;
+}
+
+.balance-card h2 {
+  color: white;
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+.status-message {
+  padding: 12px 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  background-color: #e8f0fe;
+  color: #173b70;
+  border-left: 4px solid #2457a7;
+  font-weight: 500;
+}
+
+.status-message.success-message {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  border-left-color: #2e7d32;
+}
+
+.status-message.error-message {
+  background-color: #ffebee;
+  color: #b71c1c;
+  border-left-color: #c62828;
+}
+
+
+.auth-card {
+  max-width: 420px;
+  margin: 24px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.auth-card input {
+  width: 100%;
+  margin: 8px 0;
+}
+
+.auth-card button {
+  width: 100%;
+  margin-top: 12px;
+}
